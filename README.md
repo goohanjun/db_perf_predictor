@@ -12,3 +12,5 @@ An additional auxiliary loss enforces consistency between these outputs by encou
 
 ```text
 predicted total runtime ≈ sum of predicted per-query runtimes
+L = MSE(y_hat, y) + α · MSE(y_hat_total, sum(y_hat_query))
+```

@@ -1,6 +1,8 @@
 # MySQL Configuration Runtime Prediction
 
 This project predicts MySQL benchmark runtime from database configuration settings.
+> 📄 Paper: *A Prediction Model for Workload Execution Time in Database Systems*
+
 
 The main focus is a **multi-output neural network with an auxiliary consistency loss**.  
 Instead of predicting only the total runtime, the model jointly predicts:
